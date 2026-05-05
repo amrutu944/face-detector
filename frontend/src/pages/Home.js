@@ -3,7 +3,7 @@ import * as faceapi from "face-api.js";
 import { sendEmail } from "../services/api";
 import "../App.css";
 
-const API_URL = process.env.REACT_APP_API_URL || "http://localhost:4000";
+const API_URL = process.env.REACT_APP_API_URL || "https://face-detector-5.onrender.com";
 
 const Home = () => {
   const videoRef = useRef(null);
