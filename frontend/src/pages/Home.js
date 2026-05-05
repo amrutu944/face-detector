@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import * as faceapi from "face-api.js";
+const faceapi = require("face-api.js");
 import { sendEmail } from "../services/api";
 import "../App.css";
 
